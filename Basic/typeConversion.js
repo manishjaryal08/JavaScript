@@ -53,34 +53,7 @@ undefined (A variable that has been declared but not assigned a value)
 
 NaN (Not a Number)
 
-tuthy values :-
-Gemini said
-In JavaScript, truthy and falsy refer to how values behave when they are evaluated in a "boolean context."
-
-Whenever you put a variable inside an if statement, a while loop, or use it with logical operators, JavaScript automatically tries to convert that value into a strict true or false. This automatic conversion is called type coercion.
-
-The easiest way to learn this concept is to memorize the "falsy" values, because there are only a few of them. If a value is not on the falsy list, it is automatically truthy.
-
-🛑 The Falsy Values
-There are exactly 8 falsy values in modern JavaScript. If you put any of these into an if condition, they will evaluate to false:
-
-false (The boolean keyword itself)
-
-0 (The number zero)
-
--0 (Minus zero)
-
-0n (BigInt zero)
-
-"", '', `` (Empty strings—any string with absolutely nothing in it)
-
-null (The intentional absence of any object value)
-
-undefined (A variable that has been declared but not assigned a value)
-
-NaN (Not a Number)
-
-Example of Falsy:
+ The Truthy Values
 
 Everything else is truthy. If it is not on the list of 8 items above, JavaScript will treat it as true.
 
