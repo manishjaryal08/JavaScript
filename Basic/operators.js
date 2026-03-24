@@ -72,3 +72,12 @@ console.log(null >= 0);
 console.log("Mani" < "Zani");
 
 console.log(null >= "");
+
+//logical  operator
+let a = 10;
+let b = 20;
+console.log(a && b); //b -> first true and so second answer hoga and mei
+console.log(a || b); //a -> first true hai next dekhna hi nhi
+let q = "mani";
+let k = "ani";
+console.log(q && k, q || k); //same logic
